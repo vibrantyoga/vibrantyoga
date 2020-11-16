@@ -62,10 +62,17 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
+  /* overflow-x: hidden; */
+
   background-color: #fff; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 hr {
   -webkit-box-sizing: content-box;
@@ -7434,7 +7441,7 @@ h1, h2, h3, h4, h5,
       color: #000; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-brand {
-        margin-top:2px;
+        margin-top:1px;
         /* padding-top: 1.5px; */
         color: #fff; } }
   @media (max-width: 991.98px) {
